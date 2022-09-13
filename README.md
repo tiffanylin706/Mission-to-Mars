@@ -17,7 +17,7 @@ The goal was to develop an app to scrape the following information about the pla
 * Images of the hemispheres
 
 ### Deliverable 1
-Create ["Mission_to_Mars_Challenge.ipynb"](https://github.com/tiffanylin706/Mission-to-Mars/blob/9ad4d6f71f2e1e67b9cebcffb97bc35b011051f5/Mission_to_Mars_Challenge.ipynb jupyter notebook) in `Jupyter notebook` to perform the scraping activity and pull the requested information needed to build the app. 
+Create ["Mission_to_Mars_Challenge.ipynb"](https://github.com/tiffanylin706/Mission-to-Mars/blob/9ad4d6f71f2e1e67b9cebcffb97bc35b011051f5/Mission_to_Mars_Challenge.ipynb) in `Jupyter notebook` to perform the scraping activity and pull the requested information needed to build the app. 
 For Example:
 * Visiting the URL `url = 'https://redplanetscience.com/', browser.visit(url)`
 * Using `Splinter` and `BeautifulSoup` to automate the browser and parse the HTML element to obtain the latest news title `news_soup = soup(html,'html.parser')`, `slide_elem.find("div",class_='content_title')`, `news_title = slide_elem.find("div", class_='content_title').get_text()`
